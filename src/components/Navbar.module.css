@@ -1,0 +1,64 @@
+/* Navbar styling */
+.nav {
+  background-color: blue;
+  position: relative;
+}
+
+/* Centering the branding element */
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Ensure that the container and alignment elements fill the space */
+.container-fluid {
+  position: relative;
+  width: 100%;
+}
+
+/* Flexbox settings to center the branding */
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.d-flex > .position-relative {
+  display: flex;
+  justify-content: center;
+}
+
+/* Navbar button and links styling */
+.button {
+  background-color: blue;
+  border: none;
+  padding-top: 8px;
+  font-size: 22px;
+  color: white;
+}
+.button:hover {
+  color: black;
+}
+.color {
+  color: white;
+  text-shadow: 0px 0px 1px black;
+}
+
+:global .active {
+  color: black;
+  text-shadow: 0px 0px 1px black;
+}
+
+@media (max-width: 991px) {
+  .justify {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 2200px) {
+  .justify {
+    justify-content: end;
+    width: 32rem;
+  }
+}
