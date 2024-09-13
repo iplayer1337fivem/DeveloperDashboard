@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import Spinner from "../components/Spinner";
 import styles from "./Homepage.module.css";
 
 // Dynamically import all images
@@ -76,28 +77,34 @@ const HomePage = ({ setDarkMode, darkMode }) => {
         </select>
       </div>
 
-      {/* Display images */}
+      {/* Display images or spinner */}
       <div className="d-flex flex-wrap justify-content-center align-items-center mt-3 pb-5">
-        {filteredImages.map((image, index) => (
-          <div
-            key={index}
-            className={`${styles.imageContainer} d-flex flex-column justify-content-center align-items-center`}
-          >
-            {/* Anchor tag with download attribute */}
-            <a href={image.src} download={image.fileNameWithExtension}>
-              <img
-                src={image.src}
-                alt={image.name}
-                className={`${styles.pic} ${
-                  darkMode ? styles.picDarkMode : styles.picLightMode
-                }`}
-                style={{ cursor: "pointer" }}
-                loading="lazy"
-              />
-            </a>
-            <h1 className={styles.imageName}>{image.name}</h1>
+        {images.length === 0 ? (
+          <div className=" mt-5 p-5">
+            {" "}
+            <Spinner />{" "}
           </div>
-        ))}
+        ) : (
+          filteredImages.map((image, index) => (
+            <div
+              key={index}
+              className={`${styles.imageContainer} d-flex flex-column justify-content-center align-items-center`}
+            >
+              {/* Anchor tag with download attribute */}
+              <a href={image.src} download={image.fileNameWithExtension}>
+                <img
+                  src={image.src}
+                  alt={image.name}
+                  className={`${styles.pic} ${
+                    darkMode ? styles.picDarkMode : styles.picLightMode
+                  }`}
+                  style={{ cursor: "pointer" }} // Change cursor to pointer to indicate clickable
+                />
+              </a>
+              <h1 className={styles.imageName}>{image.name}</h1>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );

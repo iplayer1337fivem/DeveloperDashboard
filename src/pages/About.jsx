@@ -49,8 +49,9 @@ function About({ setDarkMode, darkMode }) {
           <h4>Contact Us</h4>
           <p>
             If you have any questions or feedback, feel free to reach out to us
-            at <span className={styles.colorBlue}>[support email address]</span>. We value your input and are always
-            looking for ways to improve our service.
+            at <span className={styles.colorBlue}>[support email address]</span>
+            . We value your input and are always looking for ways to improve our
+            service.
           </p>
         </div>
       </div>

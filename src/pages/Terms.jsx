@@ -6,7 +6,7 @@ import styles from "./Terms.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
 
-function Terms({ setDarkMode, darkMode }) {
+function Terms({ setDarkMode, darkMode, dowmloadImageCounter }) {
   const [question1, setQuestion1] = useState(false);
   const [question2, setQuestion2] = useState(false);
   const [question3, setQuestion3] = useState(false);
