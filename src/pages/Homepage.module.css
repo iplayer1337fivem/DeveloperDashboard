@@ -1,7 +1,7 @@
 /* HomePage.module.css */
 .homePage {
   background-color: #272727;
-  color: #fff;
+  color: #c3bbbb;
   min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .picDarkMode {
-  border: 4px solid blue;
+  border: 4px solid rgb(8, 8, 95);
 }
 
 .picLightMode {
@@ -42,7 +42,7 @@
 .input {
   color: black;
   font-weight: 600;
-  border: 2px solid blue;
+  border: 2px solid rgb(6, 6, 178);
   text-align: center;
 }
 
