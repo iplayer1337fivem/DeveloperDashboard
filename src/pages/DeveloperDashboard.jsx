@@ -64,7 +64,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
                 to="https://pepsroleplay.eu/vehiclesgen/"
                 className={styles.link}
               >
-                GO THERE
+                Vehicle Generator
               </Link>
             </div>
           </div>
@@ -196,7 +196,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link to="https://discord.gg/K8KAxHagaF" className={styles.link}>
-                GO THERE
+                GO DISCORD
               </Link>
             </div>
           </div>
@@ -445,7 +445,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             }`}
           >
             <div className="d-flex justify-content-center p-3">
-              <img src="cfx_re_logo.png" alt="SHEEN THE BEST" />
+              <img src="sheenlogo.png" alt="SHEEN THE BEST" />
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link
