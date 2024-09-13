@@ -57,14 +57,14 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             }`}
           >
             <div className="d-flex justify-content-center p-3">
-              <img src="pepsscripts_logo.png" alt="Vehicle lua generator" />
+              <img src="fivem_logo.png" alt="Vehicle lua generator" />
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link
                 to="https://pepsroleplay.eu/vehiclesgen/"
                 className={styles.link}
               >
-                Vehicle Generator
+                GO THERE
               </Link>
             </div>
           </div>
@@ -196,7 +196,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link to="https://discord.gg/K8KAxHagaF" className={styles.link}>
-                GO DISCORD
+                GO THERE
               </Link>
             </div>
           </div>
@@ -435,8 +435,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             </div>
           </div>
 
-         
-          {/* Card 22 */}
+          {/* Card 21 */}
           <div
             className={` ${styles.cardContainer} ${
               darkMode
@@ -445,14 +444,14 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             }`}
           >
             <div className="d-flex justify-content-center p-3">
-              <img src="sheenlogo.png" alt="SHEEN THE BEST" />
+              <img src="cfx_re_logo.png" alt="FIVEM PED OVERVIEW" />
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link
-                to="https://discord.gg/YqMmT75hSu"
+                to="https://docs.fivem.net/docs/game-references/ped-models/"
                 className={styles.link}
               >
-                GO DISCORD
+                GO THERE
               </Link>
             </div>
           </div>

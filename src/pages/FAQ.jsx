@@ -61,9 +61,9 @@ function FAQ({ setDarkMode, darkMode }) {
               </div>
             </div>
           </div>
-                  --https://www.youtube.com/watch?v=eKHdZ5Uu8H8
-                  {question1 ? (
-          <div className={`${styles.fontSize} mt-3`}>
+
+          {question1 ? (
+            <div className={`${styles.fontSize}  mt-3`}>
               This website is a platform designed to{" "}
               <span className={styles.span}>
                 [describe the main purpose of your website, such as providing
@@ -74,14 +74,11 @@ function FAQ({ setDarkMode, darkMode }) {
                 [state your mission or vision]
               </span>
               .
-            <div className="youtube-embed">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/eKHdZ5Uu8H8?si=o_W9pFnpI4lc6Aqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-          </div>
-        ) : (
-        ""
-      )}
-      </div>
+          ) : (
+            ""
+          )}
+        </div>
       </div>
 
       {/* for question 2 */}
@@ -131,26 +128,7 @@ function FAQ({ setDarkMode, darkMode }) {
               right corner of the homepage. Fill in the required details,
               including your name, email address, and password. Once submitted,
               you will receive a confirmation email to verify your account.
-              <div>
-      <h1>FAQ</h1>
-      {/* Andre FAQ-indhold */}
-      <div>
-        <h1>Se denne video!</h1>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/eKHdZ5Uu8H8"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-    </div>
-  );
-};
             </div>
-            
           ) : (
             ""
           )}
