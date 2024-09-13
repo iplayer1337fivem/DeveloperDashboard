@@ -57,7 +57,7 @@ function DeveloperDashboard({ setDarkMode, darkMode }) {
             }`}
           >
             <div className="d-flex justify-content-center p-3">
-              <img src="fivem_logo.png" alt="Vehicle lua generator" />
+              <img src="pepsscripts_logo.png" alt="Vehicle lua generator" />
             </div>
             <div className="d-flex justify-content-center px-3 pt-2 pb-5">
               <Link
