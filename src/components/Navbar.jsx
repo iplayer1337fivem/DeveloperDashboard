@@ -23,7 +23,7 @@ function Navbar({ setDarkMode, darkMode }) {
           className={`d-flex flex-grow-1  ${styles.justify} ms-5 position-relative`}
         >
           <Link className="navbar-brand text-white fs-2 fw-bold" to="/">
-            TALVA
+            HOME
           </Link>
         </div>
 
