@@ -61,9 +61,9 @@ function FAQ({ setDarkMode, darkMode }) {
               </div>
             </div>
           </div>
-
-          {question1 ? (
-            <div className={`${styles.fontSize}  mt-3`}>
+                  --https://www.youtube.com/watch?v=eKHdZ5Uu8H8
+                  {question1 ? (
+            <div className={`${styles.fontSize} mt-3`}>
               This website is a platform designed to{" "}
               <span className={styles.span}>
                 [describe the main purpose of your website, such as providing
@@ -74,12 +74,13 @@ function FAQ({ setDarkMode, darkMode }) {
                 [state your mission or vision]
               </span>
               .
-            </div>
-          ) : (
-            ""
-          )}
-        </div>
-      </div>
+              <div className="youtube-embed">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eKHdZ5Uu8H8?si=o_W9pFnpI4lc6Aqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+) : (
+  ""
+)}
 
       {/* for question 2 */}
 
