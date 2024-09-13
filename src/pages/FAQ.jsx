@@ -131,7 +131,26 @@ function FAQ({ setDarkMode, darkMode }) {
               right corner of the homepage. Fill in the required details,
               including your name, email address, and password. Once submitted,
               you will receive a confirmation email to verify your account.
+              <div>
+      <h1>FAQ</h1>
+      {/* Andre FAQ-indhold */}
+      <div>
+        <h1>Se denne video!</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/eKHdZ5Uu8H8"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
             </div>
+            
           ) : (
             ""
           )}
